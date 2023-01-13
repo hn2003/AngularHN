@@ -8,6 +8,11 @@ import { ServicesComponent } from './services/services.component';
 const routes: Routes = [
   {
     component:HomeComponent,
+    path:'',
+    pathMatch: 'full'  
+  },
+  {
+    component:HomeComponent,
     path:'home'
   },
   {
